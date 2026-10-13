@@ -1,0 +1,7 @@
+# Ejecutar make setup o copiar a config/application-local.properties.
+# El archivo de destino esta ignorado por Git.
+# Usar únicamente credenciales de desarrollo local.
+# Si se usa el administrador local en vez de mascotas_app, cambiar el usuario.
+spring.datasource.url=jdbc:postgresql://localhost:5432/mascotas_perdidas
+spring.datasource.username=mascotas_app
+spring.datasource.password=CAMBIAR_POR_TU_PASSWORD_LOCAL
