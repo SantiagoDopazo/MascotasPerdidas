@@ -1,0 +1,12 @@
+target/
+.m2/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.env
+.env.*
+!.env.example
+config/application-local.properties
+*.log
