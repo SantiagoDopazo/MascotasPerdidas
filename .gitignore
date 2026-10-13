@@ -10,3 +10,4 @@ target/
 !.env.example
 config/application-local.properties
 *.log
+logs/
