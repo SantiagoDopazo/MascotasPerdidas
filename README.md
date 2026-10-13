@@ -10,11 +10,11 @@ La plataforma funcionará como una red social donde los usuarios podrán publica
 
 ## Equipo
 
-#
-#
-#
-#
-# Santiago Agustin Dopazo
+*
+*
+*
+*
+* Santiago Agustin Dopazo
 
 **Materia:** Diseño de Sistemas  
 **Año:** 2026
