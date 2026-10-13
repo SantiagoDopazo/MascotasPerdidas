@@ -166,8 +166,12 @@ make start
 Requiere la base creada y las credenciales configuradas. `make start` inicia el
 backend con el perfil `local`. Make usa el Maven Wrapper incluido en el repositorio.
 
-Con la aplicación en ejecución, abrir `http://localhost:8080/actuator/health`,
-o consultar desde PowerShell:
+Con la aplicación en ejecución, abrir `http://localhost:8080/health`.
+Este endpoint responde HTTP 200 con `{"status":"UP"}` cuando el backend está
+encendido; no consulta la base de datos.
+
+Para comprobar también la conexión a PostgreSQL, abrir
+`http://localhost:8080/actuator/health`, o consultar desde PowerShell:
 
 ```powershell
 Invoke-RestMethod http://localhost:8080/actuator/health | ConvertTo-Json -Depth 5
